@@ -17,6 +17,7 @@ export default function () {
   return (
     <div
       className={`App ${
+<<<<<<< HEAD
         hora === 6
           ? "dia"
           : hora === 12
@@ -24,6 +25,15 @@ export default function () {
           : hora === 4
           ? "tarde"
           : hora === 6
+=======
+        minutes === 59
+          ? "dia"
+          : minutes === 0
+          ? "mediodia"
+          : minutes === 1
+          ? "tarde"
+          : minutes === 2
+>>>>>>> master
           ? "tarde_noche"
           : "noche"
       }`}
