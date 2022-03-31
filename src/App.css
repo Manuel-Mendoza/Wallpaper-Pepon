@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 html {
   margin: 0px;
 }
@@ -14,14 +14,41 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
+  transition: all 2s;
+  background: #00aae4;
 }
 
 .App h1 {
   color: #fff;
   font-size: 5.5em;
+  margin: 0px;
 }
 .App h2 {
   color: #fff;
+  margin: 0px;
   font-size: 4.5em;
+}
+
+svg {
+  position: absolute;
+  bottom: 0px;
+}
+
+/* Colores del cielo */
+
+.App.dia {
+  background: #00aae4;
+}
+.App.mediodia {
+  background: #05e3f7;
+}
+.App.tarde {
+  background: #bdd5da;
+}
+.App.tarde_noche {
+  background: #543d22;
+}
+.App.noche {
+  background: #252850;
 }
